@@ -61,6 +61,7 @@ Prerequisites:
     + conda env list
     + conda list
     + conda create --name [projectname] python=3.13.0
+    + conda activate [projectname]
   - Search or Install Package
     + conda search python 
     + conda search nodejs
