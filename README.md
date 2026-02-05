@@ -2,11 +2,11 @@
 This project involves creating a web based Lost and Found system for George Brown College. Currently, the lost and found process mainly relies on in-person visits to campus security or limited information from a static webpage. This can be inconvenient and time consuming for students and staff who are trying to recover lost items. The goal of this system is to make the process easier and more efficient. Students and staff will be able to report lost or found items online, upload photos, search for items, and track the status of their reports. Campus security staff will manage and verify the items through an admin dashboard. Overall, the system aims to reduce confusion, save time, and improve the chances of lost items being returned to their owners.
 
 ## Team Members
-* **[Anastasiia Stoianova](anastasiia.stoianova2025@gmail.com)**
-* **[Fatemeh Sadat Ghaani](Asalghaani@yahoo.com)**
-* **[Hamida Fathi](hamidafathi200@gmail.com)**
-* **[Jui-Wen Chiang](https://github.com/jui-wen-chiang)**
-* **[Samira Sarabi](sarabisamira311@gmail.com)**
+* [Anastasiia Stoianova](anastasiia.stoianova2025@gmail.com)
+* [Fatemeh Sadat Ghaani](Asalghaani@yahoo.com)
+* [Hamida Fathi](hamidafathi200@gmail.com)
+* [Jui-Wen Chiang](https://github.com/jui-wen-chiang)
+* [Samira Sarabi](sarabisamira311@gmail.com)
 
 ## Repositories
 - **Frontend**: [lost-and-found-frontend](https://github.com/jui-wen-chiang/lost-and-found-frontend-GBC)
@@ -55,7 +55,16 @@ This project involves creating a web based Lost and Found system for George Brow
 ## Getting Started
 
 Prerequisites:
-- Install [Miniconda(Optional)] (https://www.anaconda.com/docs/getting-started/miniconda/main)
+- Install (optional) [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main)
+  - base command
+    + conda -V
+    + conda env list
+    + conda list
+    + conda create --name [projectname] python=3.13.0
+  - Search or Install Package
+    + conda search python 
+    + conda search nodejs
+    + conda install nodejs 
 - Install Python 3.11+
 - Install Node.js 18+
 
