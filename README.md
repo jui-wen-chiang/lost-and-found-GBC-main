@@ -3,10 +3,10 @@ This project involves creating a web based Lost and Found system for George Brow
 
 ## Team Members
 * [Anastasiia Stoianova](https://github.com/AnastasiiaStoianova2025)
-* [Fatemeh Sadat Ghaani](Asalghaani@yahoo.com)
+* Fatemeh Sadat Ghaani
 * [Hamida Fathi](https://github.com/Hamida-Fathi)
 * [Jui-Wen Chiang](https://github.com/jui-wen-chiang)
-* [Samira Sarabi](sarabisamira311@gmail.com)
+* Samira Sarabi
 
 ## Repositories
 - **Frontend**: [lost-and-found-frontend](https://github.com/jui-wen-chiang/lost-and-found-frontend-GBC)
