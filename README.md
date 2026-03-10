@@ -16,6 +16,18 @@ This project involves creating a web based Lost and Found system for George Brow
 - **Frontend**: [Lost and Found Management System for George Brown College ](https://lost-and-found-frontend-gbc.vercel.app/)
 - **Backend API**: [Swagger Docs](https://lost-and-found-backend-gbc.onrender.com/api/docs/)
 
+## Architecture
+
+![Architecture Layered](docs/diagram/architecture_layered.png)
+Layered Architecture: React UI → Django REST API → PostgreSQL DB, following MVC pattern for clean separation of concerns.
+- Presentation Layer: React - component-based, responsive UI with fast HMR development and Material Design consistency
+- Application Layer: Django REST API - MVC-based business logic with JWT stateless authentication for decoupled front-end/back-end communication
+- Data Layer: PostgreSQL - relational schema for structured data, accessed via Django's built-in ORM; local development uses a local PostgreSQL instance, production deploys to Supabase
+
+### Data Flow
+The user sends a request via the browser → React makes API calls to the backend → Django processes the business logic and performs database CRUD operations → The results are returned to the frontend as JSON to update the user interface.
+
+
 ## Tech Stack
 
 ### Project Tools
